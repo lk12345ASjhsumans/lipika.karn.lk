@@ -1,6 +1,6 @@
 import pandas as pd
 
-#data = [12, 12, 30, 12, 23, 12, 21, 12, 25]
+data = [12, 12, 30, 12, 23, 12, 21, 12, 25]
 for index in range(len(data)):
     if data[index] == 30:
         break
@@ -8,7 +8,7 @@ for index in range(len(data)):
         print('Green light')
        
     elif data[index] < 20:
-        print('Yellow light')
+        print('Yellowww light')
     elif data[index] < 30:
         print("Red light")
 
