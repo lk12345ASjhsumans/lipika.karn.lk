@@ -17,3 +17,4 @@ for index in range(len(data)):
     
 data2 = pd.read_csv("/home/bid/Desktop/noquote.csv", sep=",", header=None)
 print(data2)
+print(data)
