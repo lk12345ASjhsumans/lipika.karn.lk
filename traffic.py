@@ -1,6 +1,6 @@
 import pandas as pd
 
-data = [12, 12, 30, 12, 23, 12, 21, 12, 25]
+data = [12, 12, 30, 12, 23, 12, 21, 12, 25, 23]
 for index in range(len(data)):
     if data[index] == 30:
         break
