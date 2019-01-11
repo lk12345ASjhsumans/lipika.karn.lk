@@ -1,10 +1,10 @@
 import numpy
 A = numpy.array([[3, 4, 5], [5,6,7], [8,9,10]])
 B = numpy.array([1,9,0])
-#print(numpy.row_stack((A, B)))
-#print(numpy.column_stack((A, B)))
-#print(numpy.shape(A))
-#print(A)
+print(numpy.row_stack((A, B)))
+print(numpy.column_stack((A, B)))
+print(numpy.shape(A))
+print(A)
 
 
 C = numpy.array([
